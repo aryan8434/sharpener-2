@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Commerce</title>
+    <!-- Axios CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 30px;
+      }
+
+      form {
+        margin-bottom: 20px;
+      }
+
+      input {
+        margin-right: 15px;
+        padding: 5px 8px;
+      }
+
+      button {
+        padding: 6px 12px;
+        cursor: pointer;
+      }
+
+      ul {
+        list-style-type: disc;
+        padding-left: 20px;
+      }
+
+      li {
+        margin-bottom: 8px;
+      }
+
+      .delete-btn {
+        margin-left: 12px;
+        background-color: #e74c3c;
+        color: white;
+        border: none;
+        padding: 3px 8px;
+        border-radius: 4px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h2>Add Product</h2>
+    <form id="productForm">
+      <label for="productName">Product Name:</label>
+      <input type="text" id="productName" placeholder="Enter name" required />
+
+      <label for="productPrice">Product Price:</label>
+      <input
+        type="number"
+        id="productPrice"
+        placeholder="Enter price"
+        required
+      />
+
+      <button type="submit">Add Product</button>
+    </form>
+
+    <h2>Products</h2>
+    <ul id="productList"></ul>
+
+    <h3 id="totalValue">Total Value Worth of Products: Rs 0</h3>
+
+    <script src="index.js"></script>
+  </body>
+</html>
