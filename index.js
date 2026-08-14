@@ -1,7 +1,6 @@
 const apiUrl =
   "https://crudcrud.com/api/e00bb40d638446b09f21d8ae7ba67c15/products";
 
-// Recalculates and updates the total price display
 function updateTotalValue() {
   const productList = document.getElementById("productList");
   const totalValueEl = document.getElementById("totalValue");
@@ -17,7 +16,6 @@ function updateTotalValue() {
   totalValueEl.textContent = `Total Value Worth of Products: Rs ${total}`;
 }
 
-// Renders a product item to the screen
 function displayProductOnScreen(product) {
   const productList = document.getElementById("productList");
   if (!productList) return;
@@ -27,7 +25,6 @@ function displayProductOnScreen(product) {
   listItem.setAttribute("data-price", product.price);
   listItem.textContent = `${product.name} - Rs ${product.price} `;
 
-  // Create Delete Button
   const deleteBtn = document.createElement("button");
   deleteBtn.textContent = "Delete Product";
   deleteBtn.className = "delete-btn";
@@ -48,7 +45,6 @@ function displayProductOnScreen(product) {
   updateTotalValue();
 }
 
-// Handle Form Submission (POST)
 const form = document.getElementById("productForm");
 if (form) {
   form.addEventListener("submit", (event) => {
@@ -72,8 +68,6 @@ if (form) {
       .catch((err) => console.error("Error adding product:", err));
   });
 }
-
-// Fetch existing products on page load (GET)
 window.addEventListener("DOMContentLoaded", () => {
   axios
     .get(apiUrl)
