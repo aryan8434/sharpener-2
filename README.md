@@ -21,3 +21,9 @@ A web-based product management application built for Sharpener.
 ## Usage
 - Enter product selling price, product name, and choose a category.
 - Click **Add Product** to submit and save to the database.
+- Click **Delete Product** on any listed item to remove it.
+
+## Project Structure
+- `index.html` - Application user interface structure
+- `index.js` - Application logic and API integration
+- `indx.css` - Styling and layout
