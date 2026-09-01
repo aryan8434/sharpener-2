@@ -12,3 +12,7 @@ A web-based product management application built for Sharpener.
 - CSS3
 - JavaScript (Vanilla JS)
 - CrudCrud REST API
+
+## Getting Started
+1. Clone this repository to your local machine.
+2. Open `index.html` in any modern web browser.
