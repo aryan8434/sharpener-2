@@ -27,3 +27,6 @@ A web-based product management application built for Sharpener.
 - `index.html` - Application user interface structure
 - `index.js` - Application logic and API integration
 - `indx.css` - Styling and layout
+
+## License
+MIT License
