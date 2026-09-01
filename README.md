@@ -17,3 +17,7 @@ A web-based product management application built for Sharpener.
 1. Clone this repository to your local machine.
 2. Update the `apiUrl` endpoint in `index.js` with your active CrudCrud API endpoint.
 3. Open `index.html` in any modern web browser.
+
+## Usage
+- Enter product selling price, product name, and choose a category.
+- Click **Add Product** to submit and save to the database.
