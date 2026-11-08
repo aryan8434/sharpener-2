@@ -99,6 +99,12 @@ Before running this application locally, ensure you have:
 | Apple Safari | 13+ | Fully Supported |
 | Mobile Browsers | iOS Safari / Chrome Android | Supported |
 
+## Roadmap & Upcoming Features
+- [ ] **Category Filtering**: View products separated into categories (Electronics, Food, Skincare).
+- [ ] **Edit Product Details**: In-place editing modal with `PUT` / `PATCH` endpoint integration.
+- [ ] **Offline Persistence**: Fallback to `localStorage` or `IndexedDB` when network connectivity drops.
+- [ ] **Pagination & Search**: Filter and search through large inventories seamlessly.
+
 ## Troubleshooting & FAQ
 
 ### 1. Products are not loading or adding
