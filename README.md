@@ -84,6 +84,11 @@ Before running this application locally, ensure you have:
 - Click **Add Product** to submit and save to the database.
 - Click **Delete Product** on any listed item to remove it.
 
+## Performance & Best Practices
+- **Data Attributes (`data-price`)**: Keeps numeric item values directly on DOM elements for high-speed calculation without re-parsing text strings.
+- **Asynchronous Execution**: Uses non-blocking Axios promise chains (`then` / `catch`) to prevent UI freezes during network requests.
+- **Optimized DOM Appends**: Dynamically builds list nodes in memory before appending to minimise layout recalculations and reflows.
+
 ## Browser Compatibility
 
 | Browser | Version Support | Status |
