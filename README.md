@@ -56,13 +56,28 @@ The application interfaces with a CrudCrud endpoint supporting standard CRUD ope
 - JavaScript (Vanilla JS)
 - CrudCrud REST API
 
+## Prerequisites
+Before running this application locally, ensure you have:
+- A modern web browser (Google Chrome, Mozilla Firefox, Microsoft Edge, or Safari).
+- A free API endpoint from [CrudCrud](https://crudcrud.com/) (valid for 24 hours).
+- (Optional) [Live Server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) in VS Code or `npx live-server` for hot reloading.
+
 ## Getting Started
 1. Clone this repository to your local machine:
    ```bash
    git clone https://github.com/aryan8434/sharpener-2.git
    ```
-2. Update the `apiUrl` endpoint in `index.js` with your active CrudCrud API endpoint.
-3. Open `index.html` in any modern web browser.
+2. Navigate into the project folder:
+   ```bash
+   cd sharpener-2
+   ```
+3. Update the `apiUrl` endpoint in `index.js` with your active CrudCrud API endpoint:
+   ```javascript
+   const apiUrl = "https://crudcrud.com/api/<your-unique-endpoint>/products";
+   ```
+4. Launch the application:
+   - Double click `index.html` to open in browser, or
+   - Right-click `index.html` in VS Code and select **Open with Live Server**.
 
 ## Usage
 - Enter product selling price, product name, and choose a category.
