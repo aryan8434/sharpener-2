@@ -13,6 +13,24 @@ A clean, responsive web-based product management application built for Sharpener
 - **Dynamic Calculation**: Automatic total value calculation across all listed products.
 - **Cloud Synchronization**: Delete product functionality with cloud API synchronization via CrudCrud.
 
+## Architecture & Data Flow
+The application follows a client-side single-page architecture with direct RESTful API communication:
+
+```
++-------------------------------------------------------------+
+|                        Browser DOM                          |
+|  [Form Input] ---> [Add Event] ---> [Axios POST /products]  |
+|         ^                                  |                |
+|         |                                  v                |
+|  [Total Price Update] <--- [Render List] <--- [Response Data] |
++-------------------------------------------------------------+
+                              |
+                              v
+                  +-----------------------+
+                  |  CrudCrud Cloud API   |
+                  +-----------------------+
+```
+
 ## Tech Stack
 - HTML5
 - CSS3
