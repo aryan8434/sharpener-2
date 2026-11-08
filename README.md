@@ -84,6 +84,16 @@ Before running this application locally, ensure you have:
 - Click **Add Product** to submit and save to the database.
 - Click **Delete Product** on any listed item to remove it.
 
+## Troubleshooting & FAQ
+
+### 1. Products are not loading or adding
+- **Check CrudCrud Expiration**: Free CrudCrud endpoints expire after 24 hours or 100 requests. If expired, visit [CrudCrud](https://crudcrud.com/) to generate a new endpoint and update `apiUrl` in `index.js`.
+- **Inspect Console Errors**: Press `F12` or `Ctrl+Shift+I` to open Developer Tools and view network logs under the Console / Network tab.
+
+### 2. Total Value is showing `NaN` or incorrect sum
+- Ensure the price entered is a valid positive number.
+- Verify `parseFloat` or `Number()` parsing in `index.js` when reading element attributes.
+
 ## Project Structure
 - `index.html` - Application user interface structure
 - `index.js` - Application logic and API integration
