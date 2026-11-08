@@ -8,6 +8,27 @@
 
 A clean, responsive web-based product management application built for Sharpener.
 
+---
+
+## Table of Contents
+- [Features](#features)
+- [Architecture & Data Flow](#architecture--data-flow)
+- [API Endpoints & Data Model](#api-endpoints--data-model)
+- [Tech Stack](#tech-stack)
+- [Prerequisites](#prerequisites)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Performance & Best Practices](#performance--best-practices)
+- [Browser Compatibility](#browser-compatibility)
+- [Roadmap & Upcoming Features](#roadmap--upcoming-features)
+- [Troubleshooting & FAQ](#troubleshooting--faq)
+- [Contributing](#contributing)
+- [Project Structure](#project-structure)
+- [License](#license)
+- [Author & Acknowledgments](#author--acknowledgments)
+
+---
+
 ## Features
 - **Product Management**: Add new selling products with selling price and category.
 - **Dynamic Calculation**: Automatic total value calculation across all listed products.
@@ -129,4 +150,8 @@ Contributions are always welcome!
 - `indx.css` - Styling and layout
 
 ## License
-MIT License
+Distributed under the MIT License. See `LICENSE` for more information.
+
+## Author & Acknowledgments
+- **Aryan Kumar Raj** - [@aryan8434](https://github.com/aryan8434)
+- Built as part of the Sharpener Web Development curriculum.
