@@ -31,6 +31,25 @@ The application follows a client-side single-page architecture with direct RESTf
                   +-----------------------+
 ```
 
+## API Endpoints & Data Model
+
+The application interfaces with a CrudCrud endpoint supporting standard CRUD operations:
+
+| Method | Endpoint | Description | Payload / Response |
+| :--- | :--- | :--- | :--- |
+| `GET` | `/products` | Retrieves all existing product records | Returns `Product[]` array |
+| `POST` | `/products` | Creates a new product record | Body: `{ name: string, price: number }` |
+| `DELETE` | `/products/:id` | Deletes the specified product by unique `_id` | Status `200 OK` on success |
+
+### Product Object Schema
+```json
+{
+  "_id": "64fe091c323f4003e83fa123",
+  "name": "Wireless Mechanical Keyboard",
+  "price": 2499
+}
+```
+
 ## Tech Stack
 - HTML5
 - CSS3
