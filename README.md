@@ -84,6 +84,16 @@ Before running this application locally, ensure you have:
 - Click **Add Product** to submit and save to the database.
 - Click **Delete Product** on any listed item to remove it.
 
+## Browser Compatibility
+
+| Browser | Version Support | Status |
+| :--- | :--- | :--- |
+| Google Chrome | 80+ | Fully Supported |
+| Mozilla Firefox | 75+ | Fully Supported |
+| Microsoft Edge | 80+ | Fully Supported |
+| Apple Safari | 13+ | Fully Supported |
+| Mobile Browsers | iOS Safari / Chrome Android | Supported |
+
 ## Troubleshooting & FAQ
 
 ### 1. Products are not loading or adding
