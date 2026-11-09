@@ -1,6 +1,6 @@
 # E-Commerce Product Admin
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow?logo=javascript)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![HTML5](https://img.shields.io/badge/HTML-5-orange?logo=html5)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 [![CSS3](https://img.shields.io/badge/CSS-3-blue?logo=css3)](https://developer.mozilla.org/en-US/docs/Web/CSS)
@@ -18,6 +18,7 @@ A clean, responsive web-based product management application built for Sharpener
 - [Prerequisites](#prerequisites)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
+- [Documentation & Guides](#documentation--guides)
 - [Performance & Best Practices](#performance--best-practices)
 - [Browser Compatibility](#browser-compatibility)
 - [Roadmap & Upcoming Features](#roadmap--upcoming-features)
@@ -71,6 +72,8 @@ The application interfaces with a CrudCrud endpoint supporting standard CRUD ope
 }
 ```
 
+For full request/response schemas and cURL examples, see [API Reference Manual](docs/API_REFERENCE.md).
+
 ## Tech Stack
 - HTML5
 - CSS3
@@ -104,6 +107,14 @@ Before running this application locally, ensure you have:
 - Enter product selling price, product name, and choose a category.
 - Click **Add Product** to submit and save to the database.
 - Click **Delete Product** on any listed item to remove it.
+
+## Documentation & Guides
+Explore the dedicated guides for further information:
+- 📖 [API Reference Manual](docs/API_REFERENCE.md) - Complete endpoints, schemas, and cURL commands.
+- 🚀 [Deployment Guide](docs/DEPLOYMENT.md) - Hosting instructions for GitHub Pages, Vercel, and Netlify.
+- 🧪 [Testing & QA Guide](docs/TESTING.md) - Manual test cases and verification procedures.
+- 🔒 [Security Policy](docs/SECURITY.md) - Security guidelines and vulnerability reporting.
+- 📜 [Changelog](docs/CHANGELOG.md) - Version release history and notable changes.
 
 ## Performance & Best Practices
 - **Data Attributes (`data-price`)**: Keeps numeric item values directly on DOM elements for high-speed calculation without re-parsing text strings.
@@ -142,15 +153,18 @@ Contributions are always welcome!
 2. Create your Feature Branch (`git checkout -b feature/NewFeature`).
 3. Commit your Changes (`git commit -m 'feat: add some NewFeature'`).
 4. Push to the Branch (`git push origin feature/NewFeature`).
-5. Open a Pull Request.
+5. Open a Pull Request using our [PR Template](.github/PULL_REQUEST_TEMPLATE.md).
 
 ## Project Structure
 - `index.html` - Application user interface structure
 - `index.js` - Application logic and API integration
 - `indx.css` - Styling and layout
+- `docs/` - Project documentation and guides
+- `.github/` - Community and contribution templates
+- `LICENSE` - Open source MIT license
 
 ## License
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
 
 ## Author & Acknowledgments
 - **Aryan Kumar Raj** - [@aryan8434](https://github.com/aryan8434)
