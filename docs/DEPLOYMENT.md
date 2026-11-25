@@ -54,3 +54,13 @@ Vercel provides automatic SSL certificates, global CDN edge distribution, and co
 
 > [!NOTE]
 > Since this application uses the free CrudCrud API endpoint, make sure your endpoint is active before deploying publicly. If it expires, update `apiUrl` in `index.js`.
+
+---
+
+## Post-Deployment Verification
+
+After deploying to any static host, verify the following:
+1. Open the deployed URL in an incognito/private browser window.
+2. Confirm existing products load from CrudCrud without CORS or `404` console errors.
+3. Add a test product and verify the total value updates and persists after a page refresh.
+4. Delete the test product to leave the inventory clean.
