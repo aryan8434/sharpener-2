@@ -15,5 +15,9 @@ A clear and concise description of what you want to happen (e.g. Category dropdo
 **Describe alternatives you've considered**
 A clear and concise description of any alternative solutions or features you've considered.
 
+**Acceptance Criteria**
+- [ ] Describe the expected user-facing behavior when this feature is complete.
+- [ ] Note any API or UI constraints to keep in mind.
+
 **Additional context**
 Add any other context, wireframes, or screenshots about the feature request here.
