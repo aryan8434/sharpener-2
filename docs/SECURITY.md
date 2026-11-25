@@ -22,6 +22,9 @@
 3. **Dependency Auditing**:
    - Run `npm audit` periodically to scan external JavaScript dependencies (such as Axios) for vulnerabilities.
 
+4. **Content Security Policy (CSP)**:
+   - When hosting publicly, configure a Content Security Policy header that restricts script execution to `'self'` and trusted CDN origins (such as `cdn.jsdelivr.net` for Axios).
+
 ---
 
 ## Reporting a Vulnerability
