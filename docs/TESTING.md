@@ -61,3 +61,13 @@ This document outlines the testing workflow and manual test plan for **E-Commerc
   1. In `index.js`, replace endpoint with an invalid or expired URL.
   2. Refresh the page.
 - **Expected Result**: Console outputs descriptive error (`AxiosError: Request failed with status code 404`). Total value displays `Rs 0`.
+
+---
+
+### TC-06: Network Offline Error Handling
+- **Steps**:
+  1. Open Browser DevTools -> Network tab and set throttling to **Offline**.
+  2. Attempt to add a new product with valid name and price.
+- **Expected Result**:
+  - Axios logs a network error (`ERR_INTERNET_DISCONNECTED` / `Network Error`) in the console.
+  - The product is not appended to the DOM list and total value remains unchanged.
