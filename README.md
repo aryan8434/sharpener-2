@@ -119,7 +119,7 @@ Explore the dedicated guides for further information:
 ## Performance & Best Practices
 - **Data Attributes (`data-price`)**: Keeps numeric item values directly on DOM elements for high-speed calculation without re-parsing text strings.
 - **Asynchronous Execution**: Uses non-blocking Axios promise chains (`then` / `catch`) to prevent UI freezes during network requests.
-- **Optimized DOM Appends**: Dynamically builds list nodes in memory before appending to minimise layout recalculations and reflows.
+- **Optimized DOM Appends**: Dynamically builds list nodes in memory before appending to minimize layout recalculations and reflows.
 
 ## Browser Compatibility
 
@@ -146,6 +146,10 @@ Explore the dedicated guides for further information:
 ### 2. Total Value is showing `NaN` or incorrect sum
 - Ensure the price entered is a valid positive number.
 - Verify `parseFloat` or `Number()` parsing in `index.js` when reading element attributes.
+
+### 3. CORS or Network Errors in Browser Console
+- Serve `index.html` over HTTP (e.g., VS Code Live Server or `npx live-server`) rather than opening via `file://` if your browser restricts local requests.
+- Confirm your internet connection is active and the CrudCrud endpoint URL has no trailing typos.
 
 ## Contributing
 Contributions are always welcome!
