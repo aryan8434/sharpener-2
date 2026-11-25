@@ -1,6 +1,9 @@
 ## Description
 Please summarize the changes introduced in this pull request and the motivated context or issue resolved.
 
+## Related Issue
+Closes #<issue-number>
+
 ## Type of Change
 - [ ] Bug fix (non-breaking change which fixes an issue)
 - [ ] New feature (non-breaking change which adds functionality)
