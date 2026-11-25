@@ -26,6 +26,7 @@ If applicable, add screenshots or console error traces to help explain your prob
  - OS: [e.g. Windows 11, macOS, Ubuntu]
  - Browser: [e.g. Chrome, Edge, Firefox]
  - Browser Version: [e.g. 130.0]
+ - CrudCrud Endpoint Active: [Yes / No / Expired]
 
 **Additional context**
 Add any other context about the problem here (e.g. active CrudCrud endpoint status).
