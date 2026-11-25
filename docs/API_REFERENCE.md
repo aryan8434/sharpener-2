@@ -97,3 +97,15 @@ curl -X DELETE "https://crudcrud.com/api/<token>/products/67300c822e118c03e8c251
 
 #### Response:
 - **Status**: `200 OK`
+
+---
+
+## Error Responses
+
+When interacting with the CrudCrud API, the following HTTP error statuses may occur:
+
+| Status Code | Meaning | Common Cause |
+| :--- | :--- | :--- |
+| `400 Bad Request` | Invalid request payload | Malformed JSON body or missing `Content-Type: application/json` header |
+| `404 Not Found` | Endpoint or resource not found | Expired CrudCrud token (24-hour limit) or invalid product `_id` |
+| `429 Too Many Requests` | Rate/quota limit exceeded | Exceeded the 100-request limit on a free CrudCrud endpoint |
