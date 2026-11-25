@@ -151,6 +151,9 @@ Explore the dedicated guides for further information:
 - Serve `index.html` over HTTP (e.g., VS Code Live Server or `npx live-server`) rather than opening via `file://` if your browser restricts local requests.
 - Confirm your internet connection is active and the CrudCrud endpoint URL has no trailing typos.
 
+### 4. Products Disappear After 24 Hours
+- Free CrudCrud endpoints automatically reset and expire after 24 hours; generate a fresh token when resuming development.
+
 ## Contributing
 Contributions are always welcome!
 1. Fork the Project (`https://github.com/aryan8434/sharpener-2/fork`).
