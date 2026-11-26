@@ -39,3 +39,10 @@ Please include:
 - Potential impact and recommended mitigation if available.
 
 We will acknowledge reports within 48 hours and work on a fix promptly.
+
+---
+
+## Data Retention
+
+- This project uses **CrudCrud** as a temporary REST API sandbox.
+- Stored product records are automatically purged after **24 hours** and should not be used for sensitive or personally identifiable information (PII).
