@@ -21,3 +21,6 @@ A clear and concise description of any alternative solutions or features you've 
 
 **Additional context**
 Add any other context, wireframes, or screenshots about the feature request here.
+
+**Priority / Impact**
+Indicate whether this is a minor enhancement, quality-of-life improvement, or core workflow need.
