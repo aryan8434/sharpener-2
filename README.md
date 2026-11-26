@@ -103,6 +103,9 @@ Before running this application locally, ensure you have:
    - Double click `index.html` to open in browser, or
    - Right-click `index.html` in VS Code and select **Open with Live Server**.
 
+> [!TIP]
+> Keep your browser's DevTools Network tab open during development to inspect `GET`, `POST`, and `DELETE` requests to CrudCrud.
+
 ## Usage
 - Enter product selling price, product name, and choose a category.
 - Click **Add Product** to submit and save to the database.
