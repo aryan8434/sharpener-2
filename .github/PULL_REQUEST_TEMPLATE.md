@@ -16,3 +16,6 @@ Closes #<issue-number>
 - [ ] I have tested changes locally in modern web browsers.
 - [ ] Documentation has been updated accordingly.
 - [ ] My changes generate no new JavaScript console errors.
+
+## Screenshots (if applicable)
+Attach before/after screenshots for UI or layout changes.
