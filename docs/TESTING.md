@@ -71,3 +71,14 @@ This document outlines the testing workflow and manual test plan for **E-Commerc
 - **Expected Result**:
   - Axios logs a network error (`ERR_INTERNET_DISCONNECTED` / `Network Error`) in the console.
   - The product is not appended to the DOM list and total value remains unchanged.
+
+---
+
+### TC-07: Zero or Decimal Price Input
+- **Steps**:
+  1. Enter "USB Cable" in the Product Name field.
+  2. Enter "199.50" (or "0") in the Product Price field.
+  3. Click **Add Product**.
+- **Expected Result**:
+  - Numeric parsing handles the input without producing `NaN` in the Total Value display.
+  - The item appears in the list with the entered price.
