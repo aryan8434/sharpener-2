@@ -4,6 +4,14 @@ This guide covers deploying the **E-Commerce Product Admin** web application to 
 
 ---
 
+## Local Development Preview
+
+Before deploying to a remote host, you can preview the static site locally:
+- **VS Code Live Server**: Right-click `index.html` and choose **Open with Live Server**.
+- **CLI**: Run `npx live-server` from the project root directory.
+
+---
+
 ## 1. Deploying to GitHub Pages
 
 GitHub Pages is a free, simple hosting solution for static web applications directly from a GitHub repository.
