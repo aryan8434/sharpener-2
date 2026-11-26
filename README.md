@@ -161,7 +161,7 @@ Explore the dedicated guides for further information:
 Contributions are always welcome!
 1. Fork the Project (`https://github.com/aryan8434/sharpener-2/fork`).
 2. Create your Feature Branch (`git checkout -b feature/NewFeature`).
-3. Commit your Changes (`git commit -m 'feat: add some NewFeature'`).
+3. Commit your Changes (`git commit -m 'feat: add some NewFeature'`). Use conventional prefixes (`feat:`, `fix:`, `docs:`, `chore:`) where possible.
 4. Push to the Branch (`git push origin feature/NewFeature`).
 5. Open a Pull Request using our [PR Template](.github/PULL_REQUEST_TEMPLATE.md).
 
