@@ -15,6 +15,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Improved
 - Standardized spelling and expanded Troubleshooting & FAQ in `README.md`.
 
+### Documentation
+- Added rate limit details, local preview instructions, zero/decimal price test case, and data retention notes.
+
 ---
 
 ## [1.2.0] - 2026-11-09
