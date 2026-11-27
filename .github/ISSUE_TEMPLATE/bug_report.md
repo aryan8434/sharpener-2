@@ -31,3 +31,7 @@ If applicable, add screenshots or console error traces to help explain your prob
 
 **Additional context**
 Add any other context about the problem here (e.g. active CrudCrud endpoint status).
+
+**Pre-Submission Checks**
+- [ ] I checked the browser DevTools Console and Network tabs for errors.
+- [ ] I confirmed the CrudCrud endpoint URL in `index.js` is not expired.
