@@ -117,3 +117,12 @@ When interacting with the CrudCrud API, the following HTTP error statuses may oc
 - **Request Quota**: Free CrudCrud endpoints allow up to **100 requests** total per generated token.
 - **Expiration**: Endpoints automatically expire **24 hours** after creation, after which all routes return `404 Not Found`.
 - **Payload Size**: Keep product `name` concise and `price` as a valid numeric value.
+
+---
+
+## Request Headers Summary
+
+| Header | Used In | Purpose |
+| :--- | :--- | :--- |
+| `Accept: application/json` | `GET` | Requests JSON-formatted product list |
+| `Content-Type: application/json` | `POST` | Indicates JSON payload when creating a product |
