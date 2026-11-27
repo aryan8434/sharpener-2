@@ -82,3 +82,13 @@ This document outlines the testing workflow and manual test plan for **E-Commerc
 - **Expected Result**:
   - Numeric parsing handles the input without producing `NaN` in the Total Value display.
   - The item appears in the list with the entered price.
+
+---
+
+### TC-08: Rapid Consecutive Product Additions
+- **Steps**:
+  1. Add three different products one after another without refreshing the page.
+  2. Refresh the page once all three appear in the list.
+- **Expected Result**:
+  - All three products remain listed after the reload.
+  - The Total Value matches the exact sum of all three prices.
