@@ -176,6 +176,9 @@ Contributions are always welcome!
 - `.github/` - Community and contribution templates
 - `LICENSE` - Open source MIT license
 
+## Support
+If you run into issues or have feature suggestions, open a [Bug Report](.github/ISSUE_TEMPLATE/bug_report.md) or [Feature Request](.github/ISSUE_TEMPLATE/feature_request.md) in the repository.
+
 ## License
 Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
 
