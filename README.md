@@ -157,6 +157,9 @@ Explore the dedicated guides for further information:
 ### 4. Products Disappear After 24 Hours
 - Free CrudCrud endpoints automatically reset and expire after 24 hours; generate a fresh token when resuming development.
 
+### 5. Add or Delete Buttons Do Nothing
+- Open DevTools (`F12`) and verify that `index.js` and the Axios CDN script loaded without `404` or syntax errors.
+
 ## Contributing
 Contributions are always welcome!
 1. Fork the Project (`https://github.com/aryan8434/sharpener-2/fork`).
