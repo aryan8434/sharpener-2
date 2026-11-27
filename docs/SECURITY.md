@@ -25,6 +25,9 @@
 4. **Content Security Policy (CSP)**:
    - When hosting publicly, configure a Content Security Policy header that restricts script execution to `'self'` and trusted CDN origins (such as `cdn.jsdelivr.net` for Axios).
 
+5. **HTTPS & Mixed Content**:
+   - Always serve the deployed application over HTTPS and ensure external API/CDN URLs (`crudcrud.com`, `cdn.jsdelivr.net`) use `https://` to prevent mixed-content blocking.
+
 ---
 
 ## Reporting a Vulnerability
