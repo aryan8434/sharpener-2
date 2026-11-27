@@ -24,3 +24,6 @@ Add any other context, wireframes, or screenshots about the feature request here
 
 **Priority / Impact**
 Indicate whether this is a minor enhancement, quality-of-life improvement, or core workflow need.
+
+**Target Area**
+Specify the area most affected (e.g., UI / Form, API Integration, Styling, Documentation).
