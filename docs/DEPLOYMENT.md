@@ -72,3 +72,10 @@ After deploying to any static host, verify the following:
 2. Confirm existing products load from CrudCrud without CORS or `404` console errors.
 3. Add a test product and verify the total value updates and persists after a page refresh.
 4. Delete the test product to leave the inventory clean.
+
+---
+
+## Troubleshooting Deployment
+
+- **404 on Assets or Scripts**: Ensure `index.html`, `index.js`, and CSS files are in the repository root and referenced with relative paths.
+- **API Requests Failing on Live Site**: Verify that `apiUrl` in `index.js` uses `https://` (not `http://`) and that the CrudCrud token has not expired.
