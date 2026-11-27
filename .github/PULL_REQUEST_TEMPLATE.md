@@ -19,3 +19,6 @@ Closes #<issue-number>
 
 ## Screenshots (if applicable)
 Attach before/after screenshots for UI or layout changes.
+
+## Testing Done
+Describe the browsers and manual test cases verified for this change.
